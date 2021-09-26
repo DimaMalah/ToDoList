@@ -7,7 +7,6 @@ const resultEl = document.querySelector("#result");
 btnEl.addEventListener("click", clickingBtn);
 
 
-
 function clickingBtn() {
 	if (inputEl.value) {
 		resultEl.innerHTML += `<li>${inputEl.value}</li>`;
